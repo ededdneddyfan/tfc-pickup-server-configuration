@@ -13,6 +13,7 @@ HostnameTimeleft.amxx - Puts timeleft in the server hostname
 hltv_autorecord.amxx - Starts recording HLTV when certain number of people are in server
 bs_dmglog.amxx - Damage logging from Bees, calculates damage to kill rather than total damage done
 flyfastspect.amxx - Fast flying around in free-look when spectating
+SchtopDoorFix.amxx - Fixes the flagroom door bug getting stuck. Only executes when map is on schtop
 
 ## Metamod
 Files were provided to me from Ricky who got it from Sev. I believe it is a fork from APG RoboCop
