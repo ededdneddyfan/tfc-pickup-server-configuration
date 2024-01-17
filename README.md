@@ -7,13 +7,13 @@ Generic Server Configuration for Team Fortress Classic to run a pickup server as
 
 Comes with a few basic plugins that most people will want
 
-BugFixesTFC.amxx - Core bugfixes for TFC, not sure how relevant it is anymore https://forums.alliedmods.net/showthread.php?t=297514
-airshot.amxx - Airshot text/sound
-HostnameTimeleft.amxx - Puts timeleft in the server hostname
-hltv_autorecord.amxx - Starts recording HLTV when certain number of people are in server
-bs_dmglog.amxx - Damage logging from Bees, calculates damage to kill rather than total damage done
-flyfastspect.amxx - Fast flying around in free-look when spectating
-SchtopDoorFix.amxx - Fixes the flagroom door bug getting stuck. Only executes when map is on schtop
+BugFixesTFC.amxx - Core bugfixes for TFC, not sure how relevant it is anymore https://forums.alliedmods.net/showthread.php?t=297514 <br />
+airshot.amxx - Airshot text/sound <br />
+HostnameTimeleft.amxx - Puts timeleft in the server hostname <br />
+hltv_autorecord.amxx - Starts recording HLTV when certain number of people are in server <br />
+bs_dmglog.amxx - Damage logging from Bees, calculates damage to kill rather than total damage done <br />
+flyfastspect.amxx - Fast flying around in free-look when spectating <br />
+SchtopDoorFix.amxx - Fixes the flagroom door bug getting stuck. Only executes when map is on schtop <br />
 
 ## Metamod
 Files were provided to me from Ricky who got it from Sev. I believe it is a fork from APG RoboCop
