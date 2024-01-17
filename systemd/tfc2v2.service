@@ -1,0 +1,12 @@
+[Unit]
+Description=Oz TFC 2v2 on port 27016
+
+[Service]
+WorkingDirectory=/home/steam/Steam/steamapps/common/Half-Life-2v2/
+User=steam
+Group=steam
+ExecStart=/home/steam/Steam/steamapps/common/Half-Life-2v2/hlds_run -game tfc +map conc_speed2 +maxplayers 8 +port 27016
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
