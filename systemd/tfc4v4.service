@@ -1,0 +1,12 @@
+[Unit]
+Description=Oz TFC 4v4 on port 27015
+
+[Service]
+WorkingDirectory=/home/steam/Steam/steamapps/common/Half-Life/
+User=steam
+Group=steam
+ExecStart=/home/steam/Steam/steamapps/common/Half-Life/hlds_run -game tfc +map ass_dm +maxplayers 32 +port 27015
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+# At 9am everyday, find all logs under 80kb and delete theme
+# This was set to be far outside of game time to prevent any issues with incomplete logs of a currently running game being deleted 
+
+0 9 * * * find /home/steam/Steam/steamapps/common/Half-Life/tfc/logs/ -type f -name '*.log' -size -80k -delete
+0 9 * * * find /home/steam/Steam/steamapps/common/Half-Life-2v2/tfc/logs/ -type f -name '*.log' -size -80k -delete
